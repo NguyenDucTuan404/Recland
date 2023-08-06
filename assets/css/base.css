@@ -1,0 +1,91 @@
+:root {
+  --primary-color: #021a84;
+  --secondary-color: #fe4c4c;
+  --text-color: #171717;
+  --gray-color: #999;
+  --white-color: #fff;
+  --background-color: #F2F2F2;
+  --light-gray: #e5e5e5;
+  --green-text: #199a44;
+  --blue-text: #021a84;
+  --red-text: #e5532a;
+  --dark-primary: #010d42;
+  --green-gradient: linear-gradient(
+      0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+      ),
+    #2ada66;
+
+  --purple-gradient: linear-gradient(
+      0deg, 
+    rgba(255, 255, 255, 0.6), 
+    rgba(255, 255, 255, 0.6)
+      ), 
+    #021a84;
+
+  --red-gradient: linear-gradient(
+      0deg,
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+      ),
+    #e5532a;
+}
+
+/* wrapper */
+.wrapper {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Button */
+.btn {
+  height: 44px;
+  min-width: 149px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Button--border */
+.btn-border {
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  color: var(--primary-color);
+  transition: all linear 0.3s;
+}
+
+.btn-border:hover {
+  background-color:  var(--primary-color);
+  color: var(--white-color);
+}
+
+/* Button--background */
+.btn-solid {
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transition: all linear 0.3s;
+}
+
+.btn-solid:hover {
+  opacity: 0.7;
+}
+
+.heading {
+  color: var(--dark-primary);
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
